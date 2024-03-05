@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 0, 136, 8%);
+    font-family: "Source Serif Pro", serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 11.87rem;
+
+    margin-top: 5.9rem;
+}
+
+.box1 {
+    width: 27rem;
+}
+
+.box1 img {
+    margin: 5.62rem 0rem 4.1rem;
+}
+
+h1 {
+    color: #A54328;
+    font-size: 2.5rem;
+}
+
+.box1 p, ul, ol, h2 {
+    color: #A54328;
+}
+
+p, li {
+    font-size: 1.25rem;
+}
+
+.box2 {
+    width: 32.8rem;
+}
+
+.box2 h1 {
+    margin-bottom: 3.18rem;
+}
+
+.box2 ol, ul, li{
+    line-height: 1.56rem;
+}
+
+.box2 ol, ul {
+    margin-left: 2rem;
+}
+
+button {
+    font-size: "Source Serif 4", serif;;
+
+    height: 2.8rem;
+    width: 8.3rem;
+
+    background: #A54328;
+    color: #fff;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 850px) {
+    main {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 2.1rem;
+
+        margin-top: 3.3rem;
+
+        margin: 3.37rem 2.3rem;
+    }
+}
